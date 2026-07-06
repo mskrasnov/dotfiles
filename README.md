@@ -1,6 +1,6 @@
 # my dotfiles
 
-<img src="./screenshots/niri.png" width="50%">
+<img src="./screenshots/niri.png">
 
 - **Laptop 1:** Lenovo ThinkBook 14+ 2026 (14 G8+ AHP):
   - AMD Ryzen 7 H 255;
