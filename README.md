@@ -52,9 +52,15 @@ DankMaterialShell with my small changes:
 
 - Alacritty config: `.config/alacritty/` (FiraCode font is required);
 - Niri config: `.config/niri/`;
+- DankMaterialShell config: `.config/DankMaterialShell/`
 
 ## helix config
 
 - My config for editor;
 - Custom LSP config;
 - `gruvbox` theme from old helix versions;
+
+## qt5, qt6 setup
+
+- `.config/qt5ct` for Qt5 (needs `qt5ct` package);
+- `.config/qt6ct` for Qt6 (needs `qt6ct` package);
