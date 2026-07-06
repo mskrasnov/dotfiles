@@ -1,0 +1,24 @@
+[[language]]
+name = "rust"
+auto-format = false
+file-types = ["rs"]
+language-servers = [ "rust-analyzer"]
+
+[[language]]
+name = "python"
+auto-format = false
+file-types = ["py"]
+language-servers = [ "pyright" ]
+
+[[language]]
+name = "vala"
+auto-format = false
+file-types = ["vala"]
+language-servers = ["vala-language-server"]
+
+# [[language]]
+# name = "cpp"
+# auto-format = false
+# language-servers = [ "clang" ]
+# file-types = ["c", "cpp", "cxx", "h", "hpp"]
+# indent = { tab-width = 4, unit = "    " }

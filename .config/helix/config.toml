@@ -1,0 +1,40 @@
+# theme = "gruvbox_original_dark_medium"
+theme = "gruvbox"
+
+[editor]
+cursorline = true
+auto-save = true
+auto-info = true
+color-modes = true
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+# [editor.whitespace.render]
+# space = "all"
+# tab = "all"
+# newline = "none"
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
+wrap-indicator = ""
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.indent-guides]
+render = true
+# character = "╎" # Other characters "▏", "┆", "┊", "⸽"
+character = "▏" # Other characters "", "┆", "┊", "⸽"
+skip-levels = 1
+
+# [editor.cursor-shape]
+# insert = "bar"
+# normal = "block"
+# select = "underline"
+

@@ -27,6 +27,7 @@
 - **Monospace Font:** FiraCode Medium 9px;
 - **Terminal:** Alacritty or BlackBox;
 - **Browser:** Firefox;
+- **Editor:** Helix;
 
 ## zsh config
 
@@ -51,3 +52,9 @@ DankMaterialShell with my small changes:
 
 - Alacritty config: `.config/alacritty/` (FiraCode font is required);
 - Niri config: `.config/niri/`;
+
+## helix config
+
+- My config for editor;
+- Custom LSP config;
+- `gruvbox` theme from old helix versions;
