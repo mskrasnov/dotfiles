@@ -18,10 +18,23 @@
   - **Distro:** Fedora 44 Workstation;
 - **Laptop 3:** Samsung NF210:
   - Intel Atom N455;
-  - 1 Gb DDR2 (DDR3?);
+  - 1 Gb LPDDR3;
   - 60 Gb SATA3 5400RPM HDD;
   - 1024x600 TN 60 Hz;
   - **System:** Windows XP SP3 x86;
+- **Laptop 4:** Samsung NP200E5C:
+  - Intel i3-2370M;
+  - 8 Gb LPDDR3;
+  - 128 Gb SATA3 SSD;
+  - 1 Tb SATA3 HDD 5400RPM;
+  - 1366x768 TN 60 Hz;
+  - **System:** Windows 10 64 amd64;
+- **Laptop 5:** Asus K50IJ [dead :\]:
+  - Intel Celeron T3100;
+  - 2 Gb LPDDR2 666 Hz;
+  - HDD is dead;
+  - 1366x768 TN 60 Hz;
+  - **System:** no os;
 - **Desktop:** GNOME 50 and DankMaterialShell with Niri compositor;
 - **Cmd shell:** `zsh`;
 - **Monospace Font:** FiraCode Medium 9px;
