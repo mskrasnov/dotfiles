@@ -7,7 +7,12 @@
 "	<l>n - focus to the Nerd Tree
 "	C-t - toggle Nerd Tree
 "	C-f - find
-" (<l> - leader; `\` is default, C - Ctrl)
+"	<l>t - open terminal
+"	< >a - open code actions window
+"	< >r - rename symbol under cursor
+"	< >d - go to definition of the symbol under cursor
+"	< >D - go to declaration of the symbol under cursor
+" (<l> - leader; `\` is default, C - Ctrl, < > - space)
 
 set nu
 set lbr
@@ -50,6 +55,18 @@ nnoremap <leader>t :FloatermToggle<CR>
 
 colorscheme gruvbox
 set background=dark
+
+let g:lsp_inlay_hints_enabled=1
+let g:lsp_code_action_signs_hint = {'text': '💡'}
+
+highlight lspInlayHintsType guifg=#5c6370 ctermfg=gray guibg=NONE ctermbg=NONE
+highlight lspInlayHintsParameter guifg=#81a1c1 ctermfg=blue guibg=NONE ctermbg=NONE
+highlight LspCodeActionHintText guifg=#E5C07B ctermfg=yellow
+
+nnoremap <space>a :LspCodeAction<CR>
+nnoremap <space>r :LspRename<CR>
+nnoremap <space>d :LspDefinition<CR>
+nnoremap <space>D :LspDeclaration<CR>
 
 if executable('rust-analyzer')
     au User lsp_setup call lsp#register_server({
