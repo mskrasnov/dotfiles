@@ -73,6 +73,35 @@ DankMaterialShell with my small changes:
 - Custom LSP config;
 - `gruvbox` theme from old helix versions;
 
+## vim config
+
+- Enabled plugins:
+  - `dbakker/vim-projectroot`;
+  - `preservim/nerdcommenter`;
+  - `preservim/nerdtree`;
+  - `morhetz/gruvbox`;
+  - `vim-airline/vim-airline`;
+  - `vim-airline/vim-airline-themes`;
+  - `jreybert/vimagit`;
+  - `voldikss/vim-floaterm`;
+  - `prabirshrestha/vim-lsp`;
+  - `mattn/vim-lsp-settings`;
+  - `prabirshrestha/asyncomplete.vim`;
+  - `prabirshrestha/asyncomplete-lsp.vim`;
+- "Configured" LSP for:
+  - Rust (`rust-analyzer`);
+  - C (`clangd`);
+- Keybinds: see `.vimrc` file;
+
+Install plugins and LSP:
+
+```vimscript
+:PlugInstall
+:LspInstall
+```
+
+![](screenshots/vim.png)
+
 ## qt5, qt6 setup
 
 - `.config/qt5ct` for Qt5 (needs `qt5ct` package);
