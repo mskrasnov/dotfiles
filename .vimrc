@@ -28,6 +28,7 @@ call plug#begin()
 		Plug 'vim-airline/vim-airline-themes'
 		Plug 'jreybert/vimagit'
 		Plug 'voldikss/vim-floaterm'
+		Plug 'jiangmiao/auto-pairs'
 
 		Plug 'prabirshrestha/vim-lsp'
 		Plug 'mattn/vim-lsp-settings'
@@ -93,7 +94,7 @@ function! s:on_lsp_buffer_enabled() abort
     nnoremap <buffer> <expr><c-d> lsp#scroll(-4)
 
     let g:lsp_format_sync_timeout = 1000
-    autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
+    autocmd! BufWritePre *.rs,*.go,*.py,*.c,*.cpp,*.h,*.hpp,*.php call execute('LspDocumentFormatSync')
     
     " refer to doc to add more commands
 endfunction
@@ -103,4 +104,3 @@ augroup lsp_install
     " call s:on_lsp_buffer_enabled only for languages that has the server registered.
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
-"vim.lsp.enable("rust_analyzer")
