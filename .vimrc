@@ -34,6 +34,7 @@ call plug#begin()
 		Plug 'mattn/vim-lsp-settings'
 		Plug 'prabirshrestha/asyncomplete.vim'
 		Plug 'prabirshrestha/asyncomplete-lsp.vim'
+		Plug 'fedorenchik/qt-support.vim'
 call plug#end()
 
 let g:airline_theme='tomorrow'
